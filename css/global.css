@@ -114,6 +114,14 @@ textarea:focus {
 	outline: none;
 }
 
+.text-overflow {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-break: normal;
+}
+
+
 
 .tbox {
 	width: 45px;

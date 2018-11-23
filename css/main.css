@@ -344,4 +344,61 @@
     font-size: 24px;
     line-height: 30px;
 }
-
+/*弹窗提交服务*/
+.layui-layer {
+	background: url(../images/modeBg.jpg) no-repeat center center !important;
+	background-size: cover !important;
+}
+.layui-layer-setwin {
+	position: absolute;
+	right: 15px;
+	top: 6px !important;
+	font-size: 0;
+	line-height: initial;
+}
+.layui-layer-setwin .layui-layer-close1 {
+	background-position: -179px -31px !important;
+	cursor: pointer;
+}
+.layui-layer-setwin a {
+	position: relative;
+	width: 35px !important;
+	height: 35px !important;
+	margin-left: 10px;
+	font-size: 12px;
+	_overflow: hidden;
+}
+.layui-form input[type=checkbox],
+.layui-form input[type=radio],
+.layui-form select {
+	display: inline-block !important;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	border: 1px solid #d2d2d2;
+	font-size: 12px;
+	border-radius: 2px;
+	background-color: #fff;
+	-webkit-transition: .1s linear;
+	transition: .1s linear;
+	margin-right: 5px;
+}
+.layui-form-checkbox[lay-skin=primary] {
+	height: auto !important;
+	line-height: normal !important;
+	min-width: 18px;
+	min-height: 18px;
+	border: none !important;
+	margin-right: 0;
+	padding-left: 0 !important;
+	padding-right: 0;
+	background: 0 0;
+}
+.layui-form-item{
+	margin-bottom: 25px !important;
+}
+#mode{
+	width: 600px;
+	margin: 5% auto;
+	display: none;
+}
