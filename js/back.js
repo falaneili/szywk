@@ -102,7 +102,7 @@ function newsList() {
     effect: "top",
     autoPlay: true,
     vis: 4,
-    delayTime: 300
+    delayTime: 500
   });
 }
 
