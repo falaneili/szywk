@@ -1029,7 +1029,25 @@ dl.solu_dl_3:hover dt a {
     width: 1px;
     height: 80px;
     background: #CCC;
-    margin: 20px 180px;
+    margin: 20px 100px;
+}
+
+.footer-mess{
+    width: 250px;
+    margin-right: 85px;
+}
+.footer-mess h3{
+    color: #999;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.footer-mess .footer-mess_text{
+    width: 240px;
+    height: 200px;
+    cursor: pointer;
+    background: url(../images/footer_mess.png) no-repeat center center;
 }
 
 .footer-nav {
@@ -1055,7 +1073,7 @@ dl.solu_dl_3:hover dt a {
 }
 
 .footer-nav1 {
-    margin: 0 120px;
+    margin: 0 40px;
 }
 
 .footer-contact {

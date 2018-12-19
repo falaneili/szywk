@@ -109,7 +109,7 @@ function newsList() {
 /*弹窗*/
 //页面一打开就执行，放入ready是为了layer所需配件（css、扩展模块）加载完毕
 $(function () {
-  $('.poLeft').on('click', function () {
+  $('.poLeft, .footer-mess_text').on('click', function () {
     layer.open({
       type: 1,
       title: ['需求-PC', 'font-size:18px; text-align: center; background: none; border:none'],
