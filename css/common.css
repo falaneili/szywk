@@ -1228,6 +1228,170 @@ dl.solu_dl_3:hover dt a {
     color: #f2f2f2;
 }
 
+/*报价方案*/
+.title {
+    width: 100%;
+    border-bottom: 2px solid #29282d;
+    overflow: hidden;
+    margin-top: 45px;
+}
+
+.title span {
+    display: block;
+    float: left;
+    font-weight: normal;
+    font-size: 28px;
+    color: #29282d;
+    line-height: 58px;
+    height: 58px;
+}
+
+.title span p {
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    line-height: 62px;
+    font-family: 'NotoSansHansDemiLight';
+    float: right;
+}
+
+.diagnosis-l {
+    margin-top: 50px;
+    margin-bottom: 66px;
+}
+
+.diagnosis-l b {
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    font-size: 18px;
+    color: #111;
+    margin-bottom: 32px;
+}
+
+.diagnosis-l p {
+    font-size: 14px;
+    color: #333;
+    line-height: 38px;
+    padding-left: 35px;
+}
+
+.diagnosis-l p.p1 {
+    background: url(../images/ico1_03.png) no-repeat left center;
+}
+
+.diagnosis-l p.p2 {
+    background: url(../images/ico2_03.png) no-repeat left center;
+}
+
+.diagnosis-l span {
+    float: left;
+    margin: 21px 5px 0;
+}
+
+.diagnosis-l span.ewm {
+    position: relative;
+}
+
+.diagnosis-l span.ewm i {
+    width: 84px;
+    height: 84px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+}
+
+.diagnosis-l span.ewm:hover i {
+    display: block;
+}
+
+.diagnosis-r {
+    width: 65%;
+    margin-top: 50px;
+}
+
+.diagnosis-r p {
+    font-size: 18px;
+    color: #111;
+    line-height: 32px;
+}
+
+.diagnosis-form {
+    margin-top: 22px;
+}
+
+.diagnosis-form input {
+    box-sizing: border-box;
+    height: 43px;
+    border: 1px solid #333;
+    font-size: 14px;
+    color: #222;
+    font-family: '微软雅黑';
+    text-indent: 14px;
+}
+
+.diagnosis-form-item {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    padding-bottom: 27px;
+}
+
+.diagnosis-form-item-1 {
+    padding-right: 13px;
+}
+
+.diagnosis-form-item-2 {
+    padding-left: 13px;
+}
+
+.diagnosis-form-item-3 {
+    width: 100%;
+    float: none;
+}
+
+.diagnosis-form input.formbg1 {
+    background: url(../images/ico6_03.jpg) no-repeat right 10px center;
+}
+
+.diagnosis-form-item .iptxt,
+.diagnosis-form-item .select {
+    width: 100%;
+    color: #222;
+}
+
+.diagnosis-form input.formbg2 {
+    background: url(../images/ico7_03.jpg) no-repeat right 10px center;
+}
+
+.diagnosis-form input.formbg3 {
+    background: url(../images/ico8_03.jpg) no-repeat right 10px center;
+}
+
+.diagnosis-form-item .ipbtn {
+    display: block;
+    width: 100%;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    background-color: #1c1c1c;
+    outline: none;
+}
+
+.diagnosis-form-item select {
+    box-sizing: border-box;
+    height: 43px;
+    border: 1px solid #333;
+    font-size: 14px;
+    color: #222;
+    font-family: '微软雅黑';
+    text-indent: 14px;
+}
+
 /*提交服务*/
 .poLeft {
     position: fixed;
