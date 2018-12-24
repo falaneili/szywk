@@ -21,6 +21,8 @@ $(function () {
 
 /*在线客服*/
 $(function () {
+  $('#im_main').show();
+  $('#open_im').hide();
   $('#close_im').bind('click', function () {
     $('#main-im').css("height", "0");
     $('#im_main').hide();
@@ -41,6 +43,7 @@ $(function () {
     $('.weixing-show').hide();
   });
 });
+
 
 
 
